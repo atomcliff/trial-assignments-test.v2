@@ -1,0 +1,52 @@
+@import (inline) "../node_modules/normalize.css/normalize.css";
+
+@import "_fonts";
+
+@import "_style.less";
+
+@import "_slider.less";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font: 1.65rem/1.2 Circe, sans-serif;
+  font-family: "Circe";
+  font-weight: 300;
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1;
+}
+
+/*Обнуление*/
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  color: inherit;
+}
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style-type: none;
+}
+button {
+  cursor: pointer;
+}
+img {
+  vertical-align: top;
+}
+
+@import "blocks/layout";

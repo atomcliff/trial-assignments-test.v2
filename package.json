@@ -1,0 +1,21 @@
+{
+  "name": "trial-assignments",
+  "version": "1.0.0",
+  "description": "",
+  "main": " ",
+  "scripts": {
+    "test": " "
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.5",
+    "browser-sync": "^2.26.10",
+    "gulp": "^4.0.2",
+    "gulp-less": "^4.0.1",
+    "gulp-postcss": "^8.0.0"
+  }
+}
